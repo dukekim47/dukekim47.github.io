@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+html {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 4vw;
+  }
+  #result {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+    font-size: 5vw;
+  }
+  #result {
+    font-size: 3vw;
+  }
+  #score p {
+    font-size: 14px;
+  }
+  .buttons {
+    font-size: 0.2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main {
+  background-color: grey;
+  margin-top: 5vh;
+  height: 70vh;
+  width: 80vw;
+}
+
+.display {
+  background-color: white;
+  height: 75%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#result {
+  margin-bottom: 25px;
+  height: 10%;
+  text-align: center;
+  color: black;
+}
+
+#choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#rock {
+  background-color: black;
+  background-image: url("/projectstyles/rockpaperscissors/images/rock.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-color: white;
+  color: black;
+  height: 15vh;
+  width: 10vw;
+  cursor: pointer;
+}
+
+#paper {
+  background-color: black;
+  background-image: url("/projectstyles/rockpaperscissors/images/paper.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-color: white;
+  color: black;
+  height: 15vh;
+  width: 10vw;
+  margin: auto 5vw;
+  cursor: pointer;
+}
+
+#scissors {
+  background-color: black;
+  background-image: url("/projectstyles/rockpaperscissors/images/scissors.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-color: white;
+  color: black;
+  height: 15vh;
+  width: 10vw;
+  cursor: pointer;
+}
+
+.controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0.5vh;
+}
+
+#score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 3vw;
+}
+
+#score p {
+  font-size: 1.5vw;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#reset, #start {
+  margin-left: 3vw;
+  border-radius: 8px;
+  font-size: 2vw;
+}
+/*# sourceMappingURL=main.css.map */
