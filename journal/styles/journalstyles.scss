@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Source+Sans+Pro:wght@300&display=swap');
+
+$crimson: 'Crimson Text', serif;
+$sanspro: 'Source Sans Pro', sans-serif;
+
+#thumbnail {
+    height: 300px;
+}
+
+h1 , h2 {
+    font-family: $crimson;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+.logos {
+    height: 100px;
+    
+}
+
+.footer-logos {
+    height: 50px
+}
+
+.entrytop {
+  font-family: $crimson;
+  font-size: 1.3rem;
+
+}
+
+.review {
+  font-size: 1.1rem;
+}
+
+ul {
+  li {
+    font-family: $sanspro;
+    font-weight: 900;
+  }
+}

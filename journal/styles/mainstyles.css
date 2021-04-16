@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Train+One&display=swap');
+
+
+html { 
+    background: url(/images/backgroundimages/lightning.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Crimson Text', serif;
+    width: 350px;
+    line-height: 0rem;;
+}
+.main-title h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.main-title h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    opacity: 0.7;
+}
+
+.nav{
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+    width: 360px;
+}
+
+nav button {
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 15px;
+    font-family: "Crimson Text", serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+nav button:hover {
+    background-color: #00C6C2;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }

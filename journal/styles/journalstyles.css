@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Source+Sans+Pro:wght@300&display=swap");
+#thumbnail {
+  height: 300px;
+}
+
+h1, h2 {
+  font-family: "Crimson Text", serif;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.logos {
+  height: 100px;
+}
+
+.footer-logos {
+  height: 50px;
+}
+
+.entrytop {
+  font-family: "Crimson Text", serif;
+  font-size: 1.3rem;
+}
+
+.review {
+  font-size: 1.1rem;
+}
+
+ul li {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900;
+}
+/*# sourceMappingURL=journalstyles.css.map */
