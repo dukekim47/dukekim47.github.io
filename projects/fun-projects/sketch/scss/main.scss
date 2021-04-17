@@ -1,0 +1,91 @@
+@import "abstracts/colors";
+@import "abstracts/fonts";
+
+
+body {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+//header containing h1 & h2//
+.header {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    justify-content: center;
+    font-size: 1.6em;
+    text-shadow: 3px -1px 3px rgba(0,0,0,0.74);
+    text-align: center;
+    color: white;
+    flex-direction: column;
+
+      h1 {
+          font-size: 1.4em;
+          font-family: $indie;
+        }
+      h2 {
+          margin-top: 0px;
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 0.6em;
+        }
+}
+
+//Control bar in charge of controls on page//
+.controls {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-hot, .btn-cold, .grid{
+    border-radius: 100px;
+    font-size: 1em;
+    padding: 25px 25px;
+    color: white;
+    font-family: $indie;
+    font-weight: 900;
+    border-color: white;
+    border: rgba(255, 255, 255, 0.877) 2px solid;
+    opacity: 0.70;
+    margin: 0 4px;
+    cursor: pointer;
+    text-shadow: 3px -1px 3px rgba(0,0,0,0.74);
+}
+.btn-hot {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    padding: 25px 27px;
+    box-shadow: 5px 5px 5px -1px #d53369;
+}
+.btn-cold {
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    box-shadow: 5px 5px 5px -1px #3F2B96;
+}
+.btn-hot:hover {
+    opacity: 1;
+}
+.btn-cold:hover {
+    opacity: 1;
+}
+.grid {
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+    box-shadow: 5px 5px 5px -1px #daa807;
+}
+.grid:hover {
+    opacity: 1;
+}
+
+//Grid Container - Boxes to be created with JS//
+.container {
+    display: grid;
+    margin: 20px auto;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box {
+    border: 1px solid rgba(0,0,0,0.4);
+}
