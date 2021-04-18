@@ -47,17 +47,17 @@ body {
           justify-content: space-evenly;
 }
 
-.btn-hot, .btn-cold, .grid {
+.btn-hot, .btn-cold, .erase, .grid {
   border-radius: 100px;
-  font-size: 1em;
-  padding: 25px 25px;
+  font-size: 0.9em;
+  padding: 10px 10px;
   color: white;
   font-family: "Indie Flower", cursive;
   font-weight: 900;
   border-color: white;
   border: rgba(255, 255, 255, 0.877) 2px solid;
   opacity: 0.70;
-  margin: 0 4px;
+  margin: 0 3px;
   cursor: pointer;
   text-shadow: 3px -1px 3px rgba(0, 0, 0, 0.74);
 }
@@ -65,7 +65,7 @@ body {
 .btn-hot {
   background: -webkit-gradient(linear, left top, right top, from(#d53369), to(#daae51));
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-  padding: 25px 27px;
+  padding: 15px 17px;
   -webkit-box-shadow: 5px 5px 5px -1px #d53369;
           box-shadow: 5px 5px 5px -1px #d53369;
 }
@@ -75,6 +75,7 @@ body {
   background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
   -webkit-box-shadow: 5px 5px 5px -1px #3F2B96;
           box-shadow: 5px 5px 5px -1px #3F2B96;
+  padding: 15px 15px;
 }
 
 .btn-hot:hover {
@@ -90,9 +91,22 @@ body {
   background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
   -webkit-box-shadow: 5px 5px 5px -1px #daa807;
           box-shadow: 5px 5px 5px -1px #daa807;
+  padding: 15px 14px;
 }
 
 .grid:hover {
+  opacity: 1;
+}
+
+.erase {
+  background: -webkit-gradient(linear, left top, right top, from(#20536f), to(#a8c1ff));
+  background: linear-gradient(90deg, #20536f 0%, #a8c1ff 100%);
+  -webkit-box-shadow: 5px 5px 5px -1px #2c7196;
+          box-shadow: 5px 5px 5px -1px #2c7196;
+  padding: 15px 9px;
+}
+
+.erase:hover {
   opacity: 1;
 }
 
@@ -102,7 +116,7 @@ body {
   margin: 20px auto;
   width: 500px;
   height: 500px;
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid black;
 }
 

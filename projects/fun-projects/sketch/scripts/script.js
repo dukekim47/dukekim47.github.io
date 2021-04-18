@@ -4,6 +4,7 @@ const btnGrid = document.querySelector(".grid");
 const interface = document.getElementById("interface");
 const hot = document.querySelector(".btn-hot");
 const cold = document.querySelector(".btn-cold");
+const erase = document.querySelector(".erase");
 
 /*     Fancy Color Variables     */
 let coldColor;
@@ -35,6 +36,14 @@ function resetColorCold () {
         screen.children[i].addEventListener("mouseover", () => {
             randomCold();
             screen.children[i].style.backgroundColor = `${coldColor}`;
+        }
+    )}
+}
+
+function eraser () {
+    for (let i =0; i < screen.children.length; i++) {
+        screen.children[i].addEventListener("mouseover", () => {
+            screen.children[i].style.backgroundColor = "#ffffff";
         }
     )}
 }
@@ -73,7 +82,6 @@ function randomHot () {
     else {coldColor = "#7b113a"};
 }
 
-
 /*         Button Control        */
 
 btnGrid.addEventListener("click", () => {
@@ -88,6 +96,8 @@ btnGrid.addEventListener("click", () => {
 hot.addEventListener("click", resetColorHot);
 
 cold.addEventListener("click", resetColorCold);
+
+erase.addEventListener("click", eraser);
 
 
 
